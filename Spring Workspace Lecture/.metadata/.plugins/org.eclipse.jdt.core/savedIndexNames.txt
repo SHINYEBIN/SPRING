@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+C:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\.metadata\.plugins\org.eclipse.jdt.core
+4238639449.index
+473138551.index
+3435985693.index
+107085672.index
+228453166.index
+3143028018.index
+3459999275.index
+1612839228.index
+2295455090.index
+6903583.index
+3361180591.index
+2378152126.index
+1909437530.index
+2004878947.index
+3739714846.index
+439405958.index
+3731801717.index
+2643293903.index
+993477741.index

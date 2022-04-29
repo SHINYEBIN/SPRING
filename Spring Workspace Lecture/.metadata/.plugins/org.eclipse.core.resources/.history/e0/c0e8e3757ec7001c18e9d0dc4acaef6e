@@ -1,0 +1,47 @@
+package kr.co.ezenac.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import kr.co.ezenac.beans.DataBean3;
+import kr.co.ezenac.beans.DataBean4;
+import kr.co.ezenac.beans.DataBean5;
+import kr.co.ezenac.beans.TestBean3;
+
+@Configuration
+@ComponentScan(basePackages="kr.co.ezenac.beans")
+public class BeanConfigClass {
+
+	@Bean
+	public DataBean3 obj4() {
+		
+		return new DataBean3();
+	}
+	
+	@Bean
+	public DataBean3 obj5() {
+		
+		return new DataBean3();
+	}
+	
+	@Bean
+	public DataBean4 data4() {
+		
+		return new DataBean4();
+	}
+	
+	@Bean
+	public DataBean5 data5() {
+		
+		return new DataBean5();
+	}
+	
+	@Bean
+	public TestBean3 java3() {
+		TestBean3 java3=new TestBean3(200,"문자열 2",new DataBean4(),new DataBean5());
+		
+		return java3;
+	}
+	
+}

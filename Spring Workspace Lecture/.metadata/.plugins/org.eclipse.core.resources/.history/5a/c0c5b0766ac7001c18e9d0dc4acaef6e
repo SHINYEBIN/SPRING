@@ -1,0 +1,8 @@
+package kr.co.ezenac.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("obj5")
+public class DataBean5 {
+
+}

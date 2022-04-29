@@ -1,0 +1,14 @@
+package kr.co.ezenac.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TestBean2 {
+	private int data1;
+	private String data2;
+	private DataBean4 data3;
+	private DataBean5 data4;
+	
+	
+	
+}

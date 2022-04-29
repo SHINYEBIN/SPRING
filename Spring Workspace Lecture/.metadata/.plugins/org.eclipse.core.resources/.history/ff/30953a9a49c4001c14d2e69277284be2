@@ -1,0 +1,19 @@
+package kr.co.ezenac.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.co.ezenac.beans.TestBean;
+
+public class MainClass {
+	
+	public static void main(String[]args) {
+		TestBean obj1=new TestBean();
+		obj1.setData1(100);
+		
+		System.out.printf("obj1.data1 : %d\n",obj1.getData1());
+		
+		ClassPathXmlApplicationContext ctx=new ClassPathXmlApplicationContext("kr/co/ezenac/config/beans.xml");
+		
+		ctx.close();
+	}
+}

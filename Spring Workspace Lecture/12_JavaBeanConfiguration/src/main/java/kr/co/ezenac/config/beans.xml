@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd"
+						default-autowire='byName'>
+	
+	<bean id='xml1' class='kr.co.ezenac.beans.TestBean1'></bean>
+	<bean id='xml2' class='kr.co.ezenac.beans.TestBean2' lazy-init='true'></bean>	<!-- //lazy-init이면 getBean할때 만들어진다. -->
+	<bean id='xml3' class='kr.co.ezenac.beans.TestBean3' scope='prototype'></bean>
+	
+	<bean class='kr.co.ezenac.beans.TestBean4'></bean>
+	<bean class='kr.co.ezenac.beans.TestBean4' primary='true'></bean>		<!-- primary: 우선순위 -->
+</beans>
+
+<!-- xml 파일은 설정하는 부분 -->

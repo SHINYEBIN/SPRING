@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\19_ComponentAutowired\src\main\java\kr\co\ezenac\main\MainClass.java"/>
+			<item value="C:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\18_ComponentSetting\src\main\java\kr\co\ezenac\main\MainClass.java"/>
+			<item value="C:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\10_CollectionDI\src\main\java\kr\co\ezenac\main\MainClass.java"/>
+			<item value="C:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\09_SetterDI\src\main\java\kr\co\ezenac\main\MainClass.java"/>
+			<item value="C:\Java Emp Class Lecture 2021-12-27\Spring Emp Class Lecture\Spring Workspace Lecture\08_ConstructorDI\src\main\java\kr\co\ezenac\main\MainClass.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="kr.co.ezenac"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="20_AOPXML"/>
+			<item value="19_ComponentAutowired"/>
+			<item value="11_AutoWire"/>
+			<item value="10_CollectionDI"/>
+			<item value="09_SetterDI"/>
+			<item value="03_SpringBasic"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
